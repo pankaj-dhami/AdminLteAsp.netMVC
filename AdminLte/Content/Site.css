@@ -1,0 +1,66 @@
+﻿.navbar {
+    padding-top: 9px;
+    padding-bottom: 6px;
+    -webkit-trasition: all 0.5s;
+    transition: all 0.5s;
+}
+
+.sidebar-mini.sidebar-collapse .main-header .logo {
+    height: 65px;
+    padding-top: 10px;
+    width: 50px;
+}
+
+.main-header .logo {
+    height: 65px;
+    padding-top: 10px;
+}
+
+.sidebar {
+    padding-bottom: 10px;
+    padding-top: 25px;
+}
+
+.cbp-af-header-shrink {
+    padding-top: 0;
+    padding-bottom: 0;
+    opacity: 0.9;
+}
+
+
+.breadcrumb {
+    background-color: transparent;
+    border-radius: 4px;
+    display: inline;
+    list-style: outside none none;
+}
+
+    .breadcrumb > li + li::before {
+        color: white;
+    }
+
+    .breadcrumb a {
+        color: white;
+    }
+
+    .breadcrumb > .active {
+        color: white;
+    }
+
+.hidden-xs {
+    display: inline !important;
+}
+
+.navbar-nav > li > a {
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.main-header .sidebar-toggle {
+    background-color: transparent;
+    background-image: none;
+    float: left;
+    font-family: fontAwesome;
+    padding-top: 15px;
+    padding-left: 15px;
+}
